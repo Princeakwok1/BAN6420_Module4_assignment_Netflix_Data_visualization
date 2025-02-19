@@ -1,6 +1,6 @@
 Netflix Data Analysis - README
 
-Overview
+## Overview
 
 This project analyzes Netflix shows and movies using Python and R. The analysis involves:
 
@@ -12,21 +12,21 @@ Data Visualization: Creating charts using Python (Seaborn, Matplotlib) and R (gg
 
 R Integration: Reproducing one visualization in R.
 
-Step 1: Data Preparation
+# Step 1: Data Preparation
 
 Files Included:
 
-Netflix_shows_movies.csv – Original dataset.
+1. Netflix_shows_movies.csv – Original dataset.
 
-Netflix_data_analysis.py – Python script for data analysis.
+2. Netflix_data_analysis.py – Python script for data analysis.
 
-netflix_visualization.R – R script for visualization.
+3. netflix_visualization.R – R script for visualization.
 
-Netflix_shows_movies_cleaned.csv – Cleaned dataset (generated after running the Python script).
+4. Netflix_shows_movies_cleaned.csv – Cleaned dataset (generated after running the Python script).
 
-README.md – This document.
+5. README.md – This document.
 
-How to Run:
+# How to Run:
 
 Ensure you have Python (>=3.7) and R installed.
 
@@ -40,7 +40,7 @@ python Netflix_data_analysis.py
 
 This will clean the dataset and save it as Netflix_shows_movies_cleaned.csv.
 
-Step 2: Data Cleaning
+# Step 2: Data Cleaning
 
 Code Explanation:
 
@@ -166,4 +166,7 @@ ggplot(genre_counts, aes(x = reorder(listed_in, n), y = n, fill = listed_in)) +
 
 Expected Result:
 
-Bar chart of the top 10 genres, similar to Python's output.# BAN6420_Module4_assignment_Netflix_Data_visualization
+Bar chart of the top 10 genres, similar to Python's output.
+
+# BAN6420_Module4_assignment_Netflix_Data_visualization
+# Prince Nsidibe
